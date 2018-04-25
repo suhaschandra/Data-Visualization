@@ -13,10 +13,10 @@ After obtaining a list of significant genes from "maSigPro," use the merge() fun
 merge_obj <- merge(x, y, by.x="V1", by.y="GeneID")
 ```
 Parameters
-**x:** first object to be merged
-**y:** second object to be merged
-**by.x:** name of column to be merged in x
-**by.y:** name of column to be merged in y
+1. **x:** first object to be merged
+2. **y:** second object to be merged
+3. **by.x:** name of column to be merged in x
+4. **by.y:** name of column to be merged in y
 
 The final object should be a data frame of only significant genes with their normalized count data. This object may also contain extraneous data from the mapping file that will need to be deleted in Excel after exporting as a tab delimited text file. 
 ```
@@ -38,7 +38,6 @@ badgenes <- which(rowMeans(data.obj) < n)
 data.obj <- data.obj[-badgenes ,]
 ```
 Parameters
-
-**data.obj:** input data file
-**n:** integer value arbitrated as the cutoff threshold
+1. **data.obj:** input data file
+2. **n:** integer value arbitrated as the cutoff threshold
 
