@@ -32,7 +32,7 @@ From the first column to the last, the data file should now consist of the spot 
 ### Filtering STEM input file for better clusters
 While the genes in the newly created STEM input file are all signifcantly dynamic expression profiles, the level of overall expression may not be significant. Better clusters can be derived if these "bad genes" are filtered out of the input file.
 
-Load the STEM input file back into R with the gene names as row names. Execute the following code to apply a row means cutoff filter. 
+Load the STEM input file back into R with the gene names as row names. Execute the following code to apply a row means cutoff filter. Re-export the filtered data set using the write.table function.
 ```
 badgenes <- which(rowMeans(data.obj) < n)
 data.obj <- data.obj[-badgenes ,]
@@ -41,3 +41,4 @@ Parameters
 1. **data.obj:** input data file
 2. **n:** integer value arbitrated as the cutoff threshold
 
+### Operating STEM
