@@ -38,6 +38,7 @@ badgenes <- which(rowMeans(data.obj) < n)
 data.obj <- data.obj[-badgenes ,]
 ```
 Parameters
+
 **data.obj:** input data file
 **n:** integer value arbitrated as the cutoff threshold
 
