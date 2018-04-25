@@ -10,10 +10,34 @@ After obtaining a list of significant genes from "maSigPro," use the merge() fun
 * **Mapping file:** an optional gene conversion table
 * **original count data:** the original normalized count data used in the maSigPro analysis; will need to reload this data object without rownames in order for R to access the gene name index for this object
 ```
-merge_obj <- merge(sigs$summary, Mapping_file, by.x="V1", by.y="GeneID")
+merge_obj <- merge(x, y, by.x="V1", by.y="GeneID")
+```
+Parameters
+**x:** first object to be merged
+**y:** second object to be merged
+**by.x:** name of column to be merged in x
+**by.y:** name of column to be merged in y
 
+The final object should be a data frame of only significant genes with their normalized count data. This object may also contain extraneous data from the mapping file that will need to be deleted in Excel after exporting as a tab delimited text file. 
 ```
+write.table(merge_obj2, "Documents/file name", sep = "\t", quote = FALSE)
 ```
-badrows <- which(rowMeans(data.obj) < 5)
-data.obj <- data.obj[-badrows ,]
+Edits in excel:
+* correctly align column names by inserting blank cell in front of A1
+* delete any columns that are not gene names, count data, or spot index
+* optionally for documentation practices, name column A "SPOT"
+
+From the first column to the last, the data file should now consist of the spot index, gene names, and the count data. The spot index is optional and should not be included if further filtering needs to be applied to the data.
+
+### Filtering STEM input file for better clusters
+While the genes in the newly created STEM input file are all signifcantly dynamic expression profiles, the level of overall expression may not be significant. Better clusters can be derived if these "bad genes" are filtered out of the input file.
+
+Load the STEM input file back into R with the gene names as row names. Execute the following code to apply a row means cutoff filter. 
 ```
+badgenes <- which(rowMeans(data.obj) < n)
+data.obj <- data.obj[-badgenes ,]
+```
+Parameters
+**data.obj:** input data file
+**n:** integer value arbitrated as the cutoff threshold
+
