@@ -20,7 +20,7 @@ f1 <- read.delim(file1, sep="\t", header=FALSE, row.names=1)
 f2 <- read.delim(file2, sep="\t", header=TRUE, row.names=1)
 
 # Select column names for RPKM
-colnames = c("", "")
+colnames = c("MC1", "MC8", "MC10", "MH2", "MH3", "MH4", "MH5")
 merge <- merge(f1, f2, by.x="V1", by.y="GENE")
 merge_subset <- subset(merge, select = colnames)
 rownames(merge_subset) <- merge$V1
