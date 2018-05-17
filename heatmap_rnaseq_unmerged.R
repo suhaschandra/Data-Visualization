@@ -35,5 +35,5 @@ dev.off()
 
 
 pdf(paste(outprefix, "_clustered_heatmap.pdf", sep=""))
-heatmap.2(as.matrix(merge_subset), col=rev(hmcol), scale="row", key=T, keysize=1.5, density.info="density", cexRow=0.1, cexCol=0.9)
+heatmap.2(as.matrix(merge_subset), col=rev(hmcol), scale="row", key=T, keysize=1.5, cexRow=0.7, cexCol=0.9)
 dev.off()
