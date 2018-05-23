@@ -42,3 +42,8 @@ Parameters
 2. **n:** integer value arbitrated as the cutoff threshold
 
 ### Operating STEM
+
+
+
+## Scatter Plot
+To create scatter plots in R, we will use the "ggplot2" package, a commonly used data visualization package that can render highly customizable graphs. For this tutorial, we will use gene expression data from a standard rpkm data file. For more details on the scatter plot function in "ggplot2," see 
