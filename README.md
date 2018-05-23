@@ -76,7 +76,7 @@ This function creates the data points for the different combinations of x and y.
 2. **size**: numeric value; default size is 0.5
 3. **colour**: character value; ie. "red"
 
-### Reference 0 Change line
+### Zero Change Reference line 
 ```
 + geom_abline()
 ```
