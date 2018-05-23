@@ -63,4 +63,13 @@ This function initializes the graph space and properly sizes the axis depending 
 2. **x**: desired x-axis; ie. one observation column that belongs to the control group
 3. **y**: desired y-axis; ie. one observation column that belongs to a non-control group
 
+### Data Point Module
+```
+geom_point(shape =___, size =___, colour =___)
+# or
+geom_point()
+```
+This function creates the data points for the different combinations of x and y. Aesthetic features can be specified or omitted.
+1. **shape**: any integer from (0:25); 
+
 
