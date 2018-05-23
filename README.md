@@ -1,5 +1,5 @@
 # Data-Visualization
-Scripts for genomic data visualization
+Tutorials for various genomic data visualization approaches
 ## Clustering
 **Disclaimer:**
 This section will be written in continuation of the analysis started in the "timecourse" repository, which details a simplified pipeline for the computational statistical package "maSigPro." The following code and tutorial should still be applicable for any pipeline seeking to use the "STEM" visualization tool.
@@ -46,4 +46,4 @@ Parameters
 
 
 ## Scatter Plot
-To create scatter plots in R, we will use the "ggplot2" package, a commonly used data visualization package that can render highly customizable graphs. For this tutorial, we will use gene expression data from a standard rpkm data file. For more details on the scatter plot function in "ggplot2," see 
+To create scatter plots in R, we will use the "ggplot2" package, a commonly used data visualization package that can render highly customizable graphs. For this tutorial, we will use gene expression data from a standard rpkm data file. For more details on the scatter plot function in "ggplot2," see [this guide] (http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization)
