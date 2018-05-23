@@ -60,6 +60,7 @@ The "ggplot2" package uses a modular design that organizes different customizabl
 ``
 ggplot(data.obj, aes(x =___, y =___))
 ``
+
 This function initializes the graph space and properly sizes the axis depending on the inputs selected. This function also supports separation by a group dimension if specified, but is not important for this specific application.
 1. **data.obj**: the data frame that vectors x and y will correspond; ie. the rpkm file
 2. **x**: desired x-axis; ie. one observation column that belongs to the control group
