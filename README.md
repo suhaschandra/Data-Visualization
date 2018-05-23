@@ -1,5 +1,7 @@
 # Data-Visualization
 Tutorials for various genomic data visualization approaches
+1. Clustering
+2. Scatter Plots
 ## Clustering
 **Disclaimer:**
 This section will be written in continuation of the analysis started in the "timecourse" repository, which details a simplified pipeline for the computational statistical package "maSigPro." The following code and tutorial should still be applicable for any pipeline seeking to use the "STEM" visualization tool.
