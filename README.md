@@ -50,9 +50,9 @@ Scatter plots can be useful for comparing gene expression of two different obser
 
 To create scatter plots in R, we will use the "ggplot2" package, a commonly used data visualization package that can render highly customizable graphs. For this tutorial, we will use gene expression data from a standard rpkm data file. For more details on the scatter plot function in "ggplot2," see (http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization)
 ```
-ggplot(data.obj, aes(x =___, y =___)) + geom_point() + geom_smooth(method = lm)
+ggplot(data.obj, aes(x =___, y =___)) + geom_point() + geom_abline() + geom_smooth(method = lm)
 ```
-The "ggplot2" package uses a modular design that organizes different customizable features such as points and trace-lines into separate functions that can be literally added to the graph initialization. For scatterplots, we will focus on using the geom_point and geom_smooth modules.
+The "ggplot2" package uses a modular design that organizes different customizable features such as points and trace-lines into separate functions that can be added to the graph initialization. For scatterplots, we will focus on using the geom_point, geom_abline, and geom_smooth modules.
 
 ### Graph Initialization Module
 ```
@@ -65,11 +65,41 @@ This function initializes the graph space and properly sizes the axis depending 
 
 ### Data Point Module
 ```
-geom_point(shape =___, size =___, colour =___)
++ geom_point(shape =___, size =___, colour =___)
 # or
-geom_point()
++ geom_point()
 ```
 This function creates the data points for the different combinations of x and y. Aesthetic features can be specified or omitted.
-1. **shape**: any integer from (0:25); 
+1. **shape**: any integer from (0:25); http://www.sthda.com/english/wiki/ggplot2-point-shapes 
+2. **size**: numeric value; default size is 0.5
+3. **colour**: character value; ie. "red"
 
+### Reference 0 Change line
+```
++ geom_abline()
+```
+This function creates a 0 expression change, reference line along the function y=x. We can customize the intercept and slope of the line produced by this function, but these options do not need to be considered for this application.
 
+### Regression Line Module
+```
++ geom_smooth(method = lm, se = TRUE, fullrange = FALSE, level = 0.95)
+# or
++ geom_smooth(method = lm)
+```
+This function creates a regression line through the scatter plot. Regression lines can help identify trends in expression.
+1. **method**: indicates what line, function, or model to fit to the data; "lm" = linear model
+2. **se**: boolean value indicating whether to include a confidence interval visualized by a shaded region around the line
+3. **fullrange**: boolean value indicating whether to fit to the full range of the plot
+4. **level**: confidence interval level
+
+### Additional Modules (axis transformations, names)
+```
++ scale_x_continuous(trans = 'log2')
++ scale_y_continuous(trans = 'log2')
+```
+These functions will scale the axis logarithmically.
+
+```
++ geom_text(label = rownames(data.obj))
+```
+This function will label each data point on the scatter plot.
