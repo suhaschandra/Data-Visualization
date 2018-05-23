@@ -49,9 +49,11 @@ Parameters
 Scatter plots can be useful for comparing gene expression of two different observation points. By plotting the control observation on the x axis and the non-control observation on the y axis, up and down regulation of genes can be easily seen. Genes that do not vary in expression between the two observations should lie upon or at least close to the y=x line. Up regulated genes will be located above the y=x line. Down regulated genes will be located below the y=x line. 
 
 To create scatter plots in R, we will use the "ggplot2" package, a commonly used data visualization package that can render highly customizable graphs. For this tutorial, we will use gene expression data from a standard rpkm data file. For more details on the scatter plot function in "ggplot2," see (http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization)
+
 ``
 ggplot(data.obj, aes(x =___, y =___)) + geom_point() + geom_smooth(method = lm)
 ``
+
 The "ggplot2" package uses a modular design that organizes different customizable features such as points and trace-lines into separate functions that can be literally added to the graph initialization. For scatterplots, we will focus on using the geom_point and geom_smooth modules.
 
 ### Graph Initialization Module
