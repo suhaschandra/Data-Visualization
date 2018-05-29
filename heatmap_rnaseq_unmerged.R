@@ -6,7 +6,7 @@ library(gplots)
 library(lattice)
 
 #Define the colors
-hmcol <- colorRampPalette(brewer.pal(9, "Reds"))(100)
+hmcol <- colorRampPalette(brewer.pal(9, "RdBu"))(100)
 
 # file1 is the list of gene names with no header
 file1  <- args[1]
