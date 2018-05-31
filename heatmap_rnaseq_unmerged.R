@@ -27,9 +27,9 @@ merge_subset <- subset(merge, select = colnames)
 rownames(merge_subset) <- merge$V1
 
 #if 'Error in `.rowNamesDF<-`(x, value = value) : duplicate 'row.names' are not allowed' shows up, remove duplicate rows in merge
-merge1 <- merge[-c("add rows to be removed"),])
-merge_subset <- subset(merge, select = colnames)
-rownames(merge_subset) <- merge1$V1
+#merge1 <- merge[-c("add rows to be removed"),])
+#merge_subset <- subset(merge, select = colnames)
+#rownames(merge_subset) <- merge1$V1
 
 
 ############################################################
