@@ -27,5 +27,5 @@ levelplot(t(y), height=0.3, col.regions=rev(hmcol), main="", colorkey=list(space
 dev.off()
 
 pdf(paste(outprefix, "_clustered_heatmap.pdf", sep=""))
-heatmap.2(as.matrix(f1), col=rev(hmcol), scale="row", key=T, keysize=1.5, density.info="density", cexRow=0.1, cexCol=0.9)
+heatmap.2(as.matrix(f), col=rev(hmcol), scale="row", key=T, keysize=1.5, density.info="density", cexRow=0.1, cexCol=0.9)
 dev.off()
