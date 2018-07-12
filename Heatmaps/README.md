@@ -1,65 +1,26 @@
-# Project Title
+# Heat Map
 
-One Paragraph of project description goes here
+Will create heapmaps of gene transcription data
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Create a **txt** file in the directory you wish to work in and paste in your genes with specified rows and columns
+![image](https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-12%20at%203.58.52%20PM.png)
 
-![image](https://github.com/suhaschandra/Data-Visualization/blob/master/Image.png?raw=true)
+### Installation
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Download the Git repository on your computer 
 
 ```
-Give the example
+git clone https://url
 ```
+This will open the gplots package
 
-And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Next, run R from the command line
 
 ```
-Give an example
+Rscript Repository_Name/Folder_Name/File_Name filename.txt
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Once finished, a heat map of the genes in the txt file will have been created and saved in your specified directory.
