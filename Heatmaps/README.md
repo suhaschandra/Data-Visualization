@@ -27,7 +27,13 @@ hmcol <- colorRampPalette(brewer.pal(9, "RdBu"))(100)
 ```
 hmcol is the variable being defined
 
-colorRampPalette 
+brewer.pal is the function that generates different colors from color palettes while colorRampPalette combines the colors to yield an entire color spectrum. 
+
+Here, we are using 9 colors from the "Red-Blue" color palette with a specified range of 100 colors within the spectrum. 
+
+### Merged Genes
+
+
 
 
 ## Getting Started
