@@ -60,6 +60,10 @@ C 5  6
 ```
 **row.names=1** specifies that the first row of the matrix are the row names
 
+### Printing the heatmap
+
+
+
 ## Getting Started
 
 Create a **txt** file in the directory you wish to work in and paste in your genes with specified rows and columns
