@@ -35,11 +35,11 @@ Here, we are using 9 colors from the "Red-Blue" color palette with a specified r
 ```
 inFile <- args[1]
 ```
-args[1] gives the argument for the txt file of the merged genes list **see Getting Started**
+**args[1]** gives the argument for the txt file of the merged genes list **see Getting Started**
 ```
 outprefix <- args[2]
 ```
-args[2] gives the argument for the pdf prefix of the heatmap output file  
+**args[2]** gives the argument for the pdf prefix of the heatmap output file  
 
 
 ### Opening Files
@@ -57,7 +57,6 @@ f <- read.delim(inFile, sep="\t", header=TRUE, row.names=1)
 A 1  2 
 B 3  4 
 C 5  6 
-
 ```
 
 
