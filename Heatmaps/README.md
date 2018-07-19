@@ -31,10 +31,18 @@ brewer.pal is the function that generates different colors from color palettes w
 
 Here, we are using 9 colors from the "Red-Blue" color palette with a specified range of 100 colors within the spectrum. 
 
-### Merged Genes
+### Arguments
+```
+inFile <- args[1]
+```
+args[1] gives the argument for the txt file of the merged genes list
+```
+outprefix <- args[2]
+```
+args[2] gives the argument for the 
 
 
-
+### 
 
 ## Getting Started
 
@@ -48,7 +56,7 @@ Download the Git repository on your computer
 ```
 git clone https://url
 ```
-This will open the gplots package
+This will open the gplots package from the provided github url
 
 
 Next, run R from the command line
