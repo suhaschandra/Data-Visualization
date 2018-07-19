@@ -58,7 +58,7 @@ A 1  2
 B 3  4 
 C 5  6 
 ```
-
+**row.names=1** specifies that the first row of the matrix are the row names
 
 ## Getting Started
 
