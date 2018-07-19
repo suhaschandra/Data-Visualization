@@ -47,7 +47,19 @@ args[2] gives the argument for the pdf prefix of the heatmap output file
 ```
 f <- read.delim(inFile, sep="\t", header=TRUE, row.names=1)
 ```
-read.delim 
+read.delim is used to read in delimited text files, where data is organized in a data matrix
+
+sep="t" specifies that the text file is deliminated (separated) by a tab
+
+header=TRUE is used if and only if the first row contains one fewer field than the number of columns, for example:
+```
+  a  b 
+A 1  2 
+B 3  4 
+C 5  6 
+
+```
+
 
 ## Getting Started
 
