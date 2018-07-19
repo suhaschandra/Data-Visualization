@@ -15,7 +15,7 @@ library(lattice)
 
 **gplots:** provides various R programming tools for plotting data
 
-**lattice:** implements a data visualization system to produce Trellis plots
+**lattice:** implements a data visualization system to produce Trellis graphs (such as heatmaps)
 
 If these packages have not yet been installed, run the command:
 ```
@@ -39,7 +39,7 @@ args[1] gives the argument for the txt file of the merged genes list **see Getti
 ```
 outprefix <- args[2]
 ```
-args[2] gives the argument for the 
+args[2] gives the argument for the pdf prefix of the heatmap output file  
 
 
 ### 
@@ -51,7 +51,7 @@ Create a **txt** file in the directory you wish to work in and paste in your gen
 
 ### Installation
 
-Download the Git repository on your computer 
+Download the Git repository on the computer 
 
 ```
 git clone https://url
