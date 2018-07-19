@@ -35,7 +35,7 @@ Here, we are using 9 colors from the "Red-Blue" color palette with a specified r
 ```
 inFile <- args[1]
 ```
-args[1] gives the argument for the txt file of the merged genes list
+args[1] gives the argument for the txt file of the merged genes list **see Getting Started**
 ```
 outprefix <- args[2]
 ```
