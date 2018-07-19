@@ -11,11 +11,11 @@ library("RColorBrewer")
 library(gplots)
 library(lattice)
 ```
-RColorBrewer: provides color schemes for maps and other graphics
+**RColorBrewer:** provides color schemes for maps and other graphics
 
-gplots: provides various R programming tools for plotting data
+**gplots:** provides various R programming tools for plotting data
 
-lattice: implements a data visualization system to produce Trellis plots
+**lattice:** implements a data visualization system to produce Trellis plots
 
 If these packages have not yet been installed, run the command:
 ```
