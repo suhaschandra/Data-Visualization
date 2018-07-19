@@ -11,11 +11,11 @@ library("RColorBrewer")
 library(gplots)
 library(lattice)
 ```
-**RColorBrewer:** provides color schemes for maps and other graphics
+**RColorBrewer** provides color schemes for maps and other graphics
 
-**gplots:** provides various R programming tools for plotting data
+**gplots** provides various R programming tools for plotting data
 
-**lattice:** implements a data visualization system to produce Trellis graphs (such as heatmaps)
+**lattice** implements a data visualization system to produce Trellis graphs (such as heatmaps)
 
 If these packages have not yet been installed, run the command:
 ```
@@ -25,9 +25,9 @@ install.packages(package_name)
 ```
 hmcol <- colorRampPalette(brewer.pal(9, "RdBu"))(100)
 ```
-hmcol is the variable being defined
+**hmcol** is the variable being defined
 
-brewer.pal is the function that generates different colors from color palettes while colorRampPalette combines the colors to yield an entire color spectrum. 
+**brewer.pal** is the function that generates different colors from color palettes while colorRampPalette combines the colors to yield an entire color spectrum. 
 
 Here, we are using 9 colors from the "Red-Blue" color palette with a specified range of 100 colors within the spectrum. 
 
@@ -47,11 +47,11 @@ args[2] gives the argument for the pdf prefix of the heatmap output file
 ```
 f <- read.delim(inFile, sep="\t", header=TRUE, row.names=1)
 ```
-read.delim is used to read in delimited text files, where data is organized in a data matrix
+**read.delim** is used to read in delimited text files, where data is organized in a data matrix
 
-sep="t" specifies that the text file is deliminated (separated) by a tab
+**sep="t"** specifies that the text file is deliminated (separated) by a tab
 
-header=TRUE is used if and only if the first row contains one fewer field than the number of columns, for example:
+**header=TRUE** is used if and only if the first row contains one fewer field than the number of columns, for example:
 ```
   a  b 
 A 1  2 
