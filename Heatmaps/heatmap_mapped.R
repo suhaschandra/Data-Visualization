@@ -10,7 +10,7 @@ library(lattice)
 #Define the colors
 hmcol <- colorRampPalette(brewer.pal(9, "RdBu"))(100)
 
-# infile is the list of merged genes
+# inFile is the list of merged genes
 inFile  <- args[1]
 # Output name - heatmap pdf prefix
 outprefix <- args[2]
