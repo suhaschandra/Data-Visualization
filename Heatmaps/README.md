@@ -42,7 +42,12 @@ outprefix <- args[2]
 args[2] gives the argument for the pdf prefix of the heatmap output file  
 
 
-### 
+### Opening Files
+
+```
+f <- read.delim(inFile, sep="\t", header=TRUE, row.names=1)
+```
+read.delim 
 
 ## Getting Started
 
