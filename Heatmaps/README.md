@@ -16,7 +16,7 @@ outprefix <- args[2]
 ### Running code
 
 Create a **txt** file in the directory you wish to work in and paste in your genes with specified rows and columns
-<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-12%20at%203.58.52%20PM.png" width="575" height="350" />
+<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Heatmaps/Images/Sample%20txt.png" width="575" height="350" />
 
 Download the Git repository on the computer 
 
