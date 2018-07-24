@@ -34,3 +34,11 @@ Rscript Repository_Name/Folder_Name/File_Name <Input_file> <Output_Prefix>
 2 output files will be generated, a clustered heatmap and an unclustered heatmap
 
 ![image](https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.54.57%20AM.png)
+
+![image](https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.09.00%20AM.png)
+
+![image](https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.09.49%20AM.png)
+
+### Testing out the code
+
+To test run the code, see the sample text file located in the repository.
