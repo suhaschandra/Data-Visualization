@@ -29,6 +29,8 @@ Next, run R from the command line
 Rscript Repository_Name/Folder_Name/File_Name <Input_file> <Output_Prefix>
 ```
 
+To generate more heatmaps, simply continue running the Rscript
+
 ### Sample Output
 
 2 output files will be generated, a clustered heatmap and an unclustered heatmap
