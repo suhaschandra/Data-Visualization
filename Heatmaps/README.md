@@ -41,4 +41,4 @@ Rscript Repository_Name/Folder_Name/File_Name <Input_file> <Output_Prefix>
 
 ### Testing out the code
 
-To test run the code, see the sample text file located in the repository.
+To test run the code, see the sample txt file located in the repository.
