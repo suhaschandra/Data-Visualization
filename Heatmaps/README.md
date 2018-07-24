@@ -30,3 +30,7 @@ Rscript Repository_Name/Folder_Name/File_Name <Input_file> <Output_Prefix>
 ```
 
 ### Sample Output
+
+2 output files will be generated, a clustered heatmap and an unclustered heatmap
+
+![image](https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.54.57%20AM.png)
