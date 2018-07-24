@@ -41,6 +41,6 @@ To generate more heatmaps, simply continue running the Rscript
 
 <img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Heatmaps/Images/Sample%20unclustered%20heatmap.png" width="550" height="550" />
 
-### Testing out the code
+### Testing the code
 
 To test run the code, see the **sampleheatmapdata.txt** file located in the Heatmaps folder
