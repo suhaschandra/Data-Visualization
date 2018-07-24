@@ -37,7 +37,6 @@ Rscript Repository_Name/Folder_Name/File_Name <Input_file> <Output_Prefix>
 
 <img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.09.00%20AM.png" width ="400" height="600" />
 
-<img src="(https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.09.49%20AM.png" width="200" height="300" />
 
 ### Testing out the code
 
