@@ -33,11 +33,11 @@ Rscript Repository_Name/Folder_Name/File_Name <Input_file> <Output_Prefix>
 
 2 output files will be generated, a clustered heatmap and an unclustered heatmap
 
-<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.54.57%20AM.png" width="275" height="50" />
+<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Heatmaps/Images/Sample%20files.png" width="275" height="50" />
 
-<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.09.00%20AM.png" width="400" height="600" />
+<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Heatmaps/Images/Sample%20clustered%20heatmap.png" width="400" height="600" />
 
-<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Screen%20Shot%202018-07-24%20at%2011.09.49%20AM.png" width="550" height="550" />
+<img src="https://github.com/suhaschandra/Data-Visualization/blob/master/Heatmaps/Images/Sample%20unclustered%20heatmap.png" width="550" height="550" />
 
 ### Testing out the code
 
