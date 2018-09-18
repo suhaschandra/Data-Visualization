@@ -26,5 +26,5 @@ dev.off()
 
 
 pdf(paste(outprefix, "_clustered_heatmap.pdf", sep=""))
-heatmap.2(as.matrix(f1), col=rev(hmcol), scale="row", key=T, keysize=1.5, density.info="density", cexRow=0.1, cexCol=0.9)
+heatmap.2(as.matrix(f1), col=rev(hmcol), scale="row", key=T, keysize=1.5, density.info="density", cexRow=0.1, cexCol=0.9, Colv=FALSE, distfun=function(x) as.dist(1-cor(t(x))), hclustfun=function(x) hclust(x, method="average"))
 dev.off()
