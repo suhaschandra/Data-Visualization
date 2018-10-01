@@ -5,7 +5,7 @@
 # categorical dimensions.
 
 # The function requires two inputs: the data object; and a vector of integers indicating which
-# columns to analyze
+# columns to analyze (ie. 1:5)
 
 rpkm_to_VioPlotInput <- function(data, columns) {
  
@@ -35,3 +35,8 @@ rpkm_to_VioPlotInput <- function(data, columns) {
   }
   return(bigdata)
 }
+
+# Reference website below for further tutorial on using the ggplot2 violin plot module
+# http://www.sthda.com/english/wiki/ggplot2-violin-plot-quick-start-guide-r-software-and-data-visualization
+
+# Written by: Brian Ligh
